@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+::selection{
+    background-color: #D3DEF0;
+    color:#0F172A;
+}
+body{
+    background-color: #0F172A;
+    color: #D3DEF0;
+}
+.fullstack{
+    color: #D3DEF0;
+}
+#fullstack{
+    color:#63718C;
+}
+ul li{
+    color:#63718C;
+}
+
+/* ul li:hover{
+    color: #D3DEF0;
+    background-color: red;
+} */
+.icons{
+    color:#63718C;
+}
+
+
+.stylishtext{
+    animation: myanm 0.3s linear;
+    animation-duration:2.7s;
+    animation-iteration-count:1;
+}
+@keyframes myanm {
+    from {
+       opacity:0%;
+    }
+  
+    to {
+     opacity:100%;
+    }
+  }
+
+  @media only screen and (max-width:768px) and (min-width: 300px) { 
+    .ulbox{
+        box-shadow: 0px 1px 1px #63718C;
+        background-color: #0F172A;
+      }
+    .list  {
+        animation: mymagic 0.3s linear;
+        animation-duration:0.6s;
+        animation-iteration-count:1;
+    }
+    
+    @keyframes mymagic {
+        from {
+           transform: translate(-50%);
+        }
+      
+        to {
+            transform: translate(0% 0%);
+        }
+      }
+   }

@@ -1,0 +1,16 @@
+.stylishimg{
+    animation: myanm 0.3s linear;
+    animation-duration:2.7s;
+    animation-iteration-count:1;
+}
+
+@keyframes myanm {
+    from {
+       opacity:0%;
+    }
+  
+    to {
+     opacity:100%;
+    }
+  }
+  
