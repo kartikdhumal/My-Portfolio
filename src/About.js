@@ -15,7 +15,7 @@ function About() {
        <div  className='w-100 ml-auto flex flex-col justify-start items-center font-semibold'>
        <img src={stylish} className='stylishimg xl:w-1/2 xl:h-1/4 mt-10 sm:w-3/4 sm:h-2/3 rounded-full shadow-2xl grayscale' ></img>
         <p  className='stylishimg p-6'>
-        My name is Kartik Dhumal, I'm an aspiring full stack developer based in Ahmedabad , Gujarat. I completed my Bachelor of Computer Applications at Som Lalit Institute of Computer Applications. Currently I am doing my MCA from Department of Computer Science - Gujarat University </p>
+        My name is Kartik Dhumal, I'm an aspiring full stack developer based in Ahmedabad , Gujarat. I completed my Bachelor of Computer Applications at Som Lalit Institute of Computer Applications. Currently I am doing MCA from Department of Computer Science - Gujarat University </p>
 
     <p  className='stylishimg pt-1 px-6'> I have developed many types of front-ends from well know applications to Ecommerce platforms. I am eager to join a creative, problem solving team. Ability to learn and implement new technologies quickly. </p>
 

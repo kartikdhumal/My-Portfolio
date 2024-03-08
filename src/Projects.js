@@ -27,12 +27,12 @@ function Projects() {
                   <p className='py-4 px-4 h-auto'> 
                   Explore my E-commerce website built with MERN stack. It has various features.
                   </p>
-                  <div className='flex xl:flex-wrap sm:flex-wrap sm:space-x-4 pt-0 pb-4 sm:space-y-4' id='expskills'>
-                  <div className='border rounded-md px-3 h-7 sm:mt-4 sm:ml-4 text-black border-none  bg-sky-500 hover:bg-sky-700'> React.js </div>
-                     <div className='border rounded-md px-3 text-black  border-none bg-sky-500 hover:bg-sky-700'> Node.js </div>
-                     <div className='border rounded-md px-3 text-black  border-none bg-sky-500 hover:bg-sky-700'> Express.js </div>
-                     <div className='border rounded-md px-3 text-black  border-none bg-sky-500 hover:bg-sky-700'> MongoDB </div>
-                     <div className='border rounded-md px-3 text-black  border-none bg-sky-500 hover:bg-sky-700'> Tailwind CSS </div>
+                  <div className='flex xl:flex-wrap sm:flex-wrap p-2 justify-start items-center pt-0 pb-4' id='expskills'>
+                     <div className='font-semibold rounded-full my-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text'> React.js </div>
+                     <div className='font-semibold rounded-full my-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text'> Node.js </div>
+                     <div className='font-semibold rounded-full my-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text'> Express.js </div>
+                     <div className='font-semibold rounded-full my-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text'> MongoDB </div>
+                     <div className='font-semibold rounded-full my-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text'> Tailwind CSS </div>
                   </div>
                </div>
             </div>
@@ -43,15 +43,14 @@ function Projects() {
                <div dir='ltr' className='flex flex-col justify-start pt-4 xl:w-8/12 sm:w-full'>
                   <a href="https://dktales-kartikdhumal.vercel.app/" target='_blank' className='px-4 flex justify-between flex-row text-2xl'> Blog Website  <BsArrowUpRight size={18}/> </a>
                   <p className='py-4 px-4 h-auto'> 
-                  Explore my blog website! It's made with cool techie tools like Next.js, TypeScript, MongoDB, and Prisma. You can add comments and create your own stories. 
-                  Check it out and have fun reading and writing.
+                  Explore my blog website! It's built with Next.js, TypeScript, MongoDB, and Prisma. You can add comments and create blogs.
                   </p>
-                  <div className='flex xl:flex-wrap sm:flex-wrap sm:space-x-4 pt-0 pb-4 sm:space-y-4' id='expskills'>
-                     <div className='border h-8 rounded-md px-3 sm:mt-4 sm:ml-4 text-black border-none  bg-sky-500 hover:bg-sky-700'> Next.js </div>
-                     <div className='border h-8  rounded-md px-3 text-black  border-none bg-sky-500 hover:bg-sky-700'> TypeScript </div>
-                     <div className='border h-8  rounded-md px-3 text-black  border-none bg-sky-500 hover:bg-sky-700'> MongoDB </div>
-                     <div className='border h-8  rounded-md px-3 text-black  border-none bg-sky-500 hover:bg-sky-700'> Prisma </div>
-                     <div className='border h-8  rounded-md px-3 text-black  border-none bg-sky-500 hover:bg-sky-700'> Tailwind CSS </div>
+                  <div className='flex xl:flex-wrap sm:flex-wrap p-2 justify-start items-center pt-0 pb-4 ' id='expskills'>
+                     <div className='font-semibold rounded-full my-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> Next.js </div>
+                     <div className='font-semibold rounded-full my-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> TypeScript </div>
+                     <div className='font-semibold rounded-full my-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> MongoDB </div>
+                     <div className='font-semibold rounded-full my-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> Prisma </div>
+                     <div className='font-semibold rounded-full my-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> Tailwind CSS </div>
                   </div>
                </div>
             </div>
@@ -63,11 +62,11 @@ function Projects() {
                   <p className='py-4 px-4 h-20'> 
                      Full stack Netflix Clone with Admin panel built using MERN stack 
                   </p>
-                  <div className='flex xl:flex-wrap sm:flex-wrap sm:space-x-4 pt-0 pb-4 sm:space-y-4' id='expskills'>
-                     <div className='border rounded-md px-3 h-7 sm:mt-4 sm:ml-4 text-black border-none  bg-sky-500 hover:bg-sky-700'> React.js </div>
-                     <div className='border rounded-md px-3 text-black  border-none bg-sky-500 hover:bg-sky-700'> Node.js </div>
-                     <div className='border rounded-md px-3 text-black  border-none bg-sky-500 hover:bg-sky-700'> Express.js </div>
-                     <div className='border rounded-md px-3 text-black  border-none bg-sky-500 hover:bg-sky-700'> MongoDB </div>
+                  <div className='flex xl:flex-wrap sm:flex-wrap p-2 justify-start items-center pt-0 pb-4 ' id='expskills'>
+                     <div className='font-semibold rounded-full my-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> React.js </div>
+                     <div className='font-semibold rounded-full my-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> Node.js </div>
+                     <div className='font-semibold rounded-full my-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> Express.js </div>
+                     <div className='font-semibold rounded-full my-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> MongoDB </div>
                   </div>
                </div>
             </div>
@@ -79,9 +78,9 @@ function Projects() {
                   <p className='py-4 px-4 h-20'> 
                      It is a personal portfolio website with skills , experince , projects , contact section
                   </p>
-                  <div className='flex xl:flex-wrap sm:flex-wrap sm:space-x-4 pt-0 pb-4 sm:space-y-4' id='expskills'>
-                     <div className='border rounded-md px-3 h-7 sm:mt-4 sm:ml-4 text-black border-none  bg-sky-500 hover:bg-sky-700'> React.js </div>
-                     <div className='border rounded-md px-3 text-black  border-none bg-sky-500 hover:bg-sky-700'> Tailwind CSS </div>
+                  <div className='flex xl:flex-wrap sm:flex-wrap p-2 justify-start items-center pt-0 pb-4 ' id='expskills'>
+                     <div className='font-semibold rounded-full my-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> React.js </div>
+                     <div className='font-semibold rounded-full my-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> Tailwind CSS </div>
                   </div>
                </div>
             </div>
@@ -93,12 +92,12 @@ function Projects() {
                   <p className='py-4 px-4'> 
                 I made this e-commerce website for my Last year project. It is a fully responsive Medical shop e-commerce website having all functionality.
                   </p>
-                  <div className='flex xl:flex-wrap sm:flex-wrap sm:space-x-4 pt-0 pb-4 sm:space-y-4' id='expskills'>
-                     <div className='border rounded-md px-3 h-7 sm:mt-4 sm:ml-4 text-black  border-none bg-sky-500 hover:bg-sky-700'> PHP </div>
-                     <div className='border rounded-md px-3 text-black  border-none bg-sky-500 hover:bg-sky-700'> MySQL </div>  
-                     <div className='border rounded-md px-3 text-black  border-none bg-sky-500 hover:bg-sky-700'> HTML </div>
-                     <div className='border rounded-md px-3 text-black  border-none bg-sky-500 hover:bg-sky-700'> CSS </div>
-                     <div className='border rounded-md px-3 text-black  border-none bg-sky-500 hover:bg-sky-700'> Javascript </div>
+                  <div className='flex xl:flex-wrap sm:flex-wrap p-2 justify-start items-center pt-0 pb-4 ' id='expskills'>
+                     <div className='font-semibold rounded-full my-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> PHP </div>
+                     <div className='font-semibold rounded-full my-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> MySQL </div>  
+                     <div className='font-semibold rounded-full my-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> HTML </div>
+                     <div className='font-semibold rounded-full my-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> CSS </div>
+                     <div className='font-semibold rounded-full my-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> Javascript </div>
                   </div>
                </div>
             </div>

@@ -4,7 +4,7 @@ import Contact from './Contact'
 import Pagenotfound from './Pagenotfound'
 import About from './About'
 import Projects from './Projects'
-import Experience from './Experience'
+import Education from './Education'
 import Skills from './Skills'
 
 
@@ -15,7 +15,7 @@ function Result() {
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/skills" element={ <Skills />} />
-        <Route path="/experience" element={ <Experience />} />
+        <Route path="/education" element={ <Education />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="*" element={<Pagenotfound />} />
