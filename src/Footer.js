@@ -13,7 +13,7 @@ function Footer() {
       <div className='icons sm:flex sm:flex-row justify-between w-60 p-4 text-[#0F172A]'>
          <a href='https://in.linkedin.com/in/kartik-dhumal-962395227?trk=public_profile_browsemap'><div className='text-[#D3DEF0] duration-200'>  <AiFillLinkedin size={35} /></div></a>
           <a href='https://www.instagram.com/kartik_dhumal._/'><div className='duration-200  text-[#D3DEF0]'>  < AiOutlineInstagram size={35} /></div></a>
-          <div className='duration-200 text-[#D3DEF0] '>  <AiFillGithub size={35} /></div>
+          <a href='https://github.com/kartikdhumal'> <div className='duration-200 text-[#D3DEF0] '>  <AiFillGithub size={35} /></div></a>
           <a href='https://twitter.com/Kartik280721 '><div className='text-[#D3DEF0] duration-200'>  <AiOutlineTwitter size={35} /></div></a>  
      </div>
 

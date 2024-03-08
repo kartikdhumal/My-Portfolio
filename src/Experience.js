@@ -17,7 +17,7 @@ function Experience() {
                   <h1 className='px-6 font-bold text-xl border-none'>PHP developer - Achten Technology </h1>
                   <p className='pt-0 px-6'> April 2022 - June 2022 </p>
                   <p className='pt-4 px-6'> 
-                    I did three months internship in my second year vacation. I gained skills in PHP - MySQL - AJAX. I worked in a project named
+                    I did three months PHP training after my second year . I gained skills in PHP - MySQL - AJAX. I worked in a project named
                     'SECURE ASSET MANAGER'
                   </p>
                   <div className='flex xl:flex-nowrap sm:flex-wrap sm:space-x-4 pt-0 pb-4 sm:space-y-4' id='expskills'>

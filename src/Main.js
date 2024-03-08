@@ -40,7 +40,7 @@ function Main() {
        <h1 className='stylishtext text-5xl w-full font-bold my-1'> Kartik Dhumal </h1>
        <p className='stylishtext fullstack text-2xl font-bold mt-3'> Full Stack Developer </p>
        <p className='stylishtext text-md mt-3 font-semibold' id='fullstack'> 
-       Technically proficient and analytical problem solver with calm and focused demeanour. 
+       A Passionate Learner
        </p>
     </div>
     <div className='flex justify-start xl:hidden sm:fixed bg-[#0F172A] xl:top-auto sm:top-0 w-full p-4'> 
@@ -70,7 +70,7 @@ function Main() {
      <div className='icons stylishtext xl:flex sm:hidden xl:flex-row justify-between w-96 p-4'>
          <a href='https://in.linkedin.com/in/kartik-dhumal-962395227?trk=public_profile_browsemap'><div className='hover:text-[#63718C] duration-200'>  <AiFillLinkedin size={35} /></div></a>
           <a href='https://www.instagram.com/kartik_dhumal._/'><div className='hover:text-[#63718C] duration-200'>  < AiOutlineInstagram size={35} /></div></a>
-          <div className='hover:text-[#63718C] duration-200'>  <AiFillGithub size={35} /></div>
+          <a href='https://github.com/kartikdhumal'><div className='hover:text-[#63718C] duration-200'>  <AiFillGithub size={35} /></div></a>
           <a href='https://twitter.com/Kartik280721'><div className='hover:text-[#63718C] duration-200'>  <AiOutlineTwitter size={35} /></div></a>  
      </div>
      {/* <div className='icons flex justify-evenly border border-b-4 w-1/3'>

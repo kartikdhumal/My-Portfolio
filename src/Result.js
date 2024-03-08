@@ -10,7 +10,7 @@ import Skills from './Skills'
 
 function Result() {
   return (
-    <div dir='rtl' className='lg:h-screen justify-between font-medium text-lg flex-col self-center items-center right-0 xl:absolute bottom-0 left-0'>
+    <div dir='rtl' className='lg:h-screen  justify-between font-medium text-lg flex-col self-center items-center right-0 xl:absolute bottom-0 left-0'>
     <div className='xl:w-3/6 ml-auto flex flex-col justify-start items-center font-semibold sm:w-full'>
       <Routes>
         <Route path="/" element={<About />} />

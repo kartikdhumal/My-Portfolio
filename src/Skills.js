@@ -8,6 +8,12 @@ import php from './images/php.png'
 import mysql from './images/mysql.png'
 import react from './images/react.png'
 import python from './images/python.png'
+import git from './images/github.png'
+import expressjs from './images/express-js.png'
+import nodejs from './images/nodejs.png'
+import nextjs from './images/next.png'
+import typescript from './images/typescript.png'
+import mongodb from './images/mongodb.png'
 import './styles/Animation.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -24,12 +30,17 @@ function Skills() {
     <div className='w-40 h-40 border-b-4 border-red-700 mt-7 ml-7 p-2 hover:scale-105 rounded-xl duration-500 flex flex-col justify-center items-center' > <img src={html} className='w-1/2 h-50'></img> <span className="font-bold flex justify-center items-center"> HTML </span> </div>
     <div className='w-40 h-40 border-b-4 border-sky-400 p-2 hover:scale-105 rounded-xl duration-500 flex flex-col justify-center items-center'> <img src={css} className='w-1/2 h-50'></img> <span className="flex justify-center items-center font-bold"> CSS </span> </div>
     <div className='w-40 h-40 border-b-4 border-amber-300 p-2 hover:scale-105 rounded-xl duration-500 flex flex-col justify-center items-center'> <img src={javascript} className='w-1/2 h-50'></img> <span className="flex justify-center items-center font-bold"> Javascript </span>  </div>
-    <div className="w-40 h-40 border-b-4 border-indigo-500 p-2 hover:scale-105 rounded-xl duration-500 flex flex-col justify-center items-center"> <img src={bootstrap} className='w-1/2 h-50'></img> <span className="flex justify-center items-center font-bold"> Bootstrap </span> </div>
-    <div className="w-40 h-40 border-b-4 border-cyan-400 p-2 hover:scale-105 rounded-xl duration-500 flex flex-col justify-center items-center"> <img src={tailwindcss} className='w-1/2 h-50'></img> <span className="flex justify-center items-center font-bold">Tailwind CSS </span> </div>
     <div className="w-40 h-40 border-b-4 border-sky-500 p-2 hover:scale-105 rounded-xl duration-500 flex flex-col justify-center items-center"> <img src={react} className='w-1/2 h-50'></img> <span className="flex justify-center items-center font-bold"> React.js </span> </div>
+    <div className="w-40 h-40 border-b-4 border-green-400 p-2 hover:scale-105 rounded-xl duration-500 flex flex-col justify-center items-center"> <img src={nodejs} className='w-1/2 h-50'></img> <span className="flex justify-center items-center font-bold"> Node.js </span> </div>
+    <div className="w-40 h-40 border-b-4 border-[#494444] p-2 hover:scale-105 rounded-xl duration-500 flex flex-col justify-center items-center"> <img src={expressjs} className='w-1/2 rounded-[50%] h-50'></img> <span className="flex justify-center items-center font-bold"> Express.js </span> </div>
+    <div className="w-40 h-40 border-b-4 border-gray-500 p-2 hover:scale-105 rounded-xl duration-500 flex flex-col justify-center items-center"> <img src={nextjs} className='w-1/2 h-50 bg-white rounded-3xl'></img> <span className="flex justify-center items-center font-bold"> Next.js </span> </div>
+    <div className="w-40 h-40 border-b-4 border-[#3178C6] p-2 hover:scale-105 rounded-xl duration-500 flex flex-col justify-center items-center"> <img src={typescript} className='w-1/2 h-50'></img> <span className="flex justify-center items-center font-bold"> Typescript </span> </div>
+    <div className="w-40 h-40 border-b-4 border-green-200 p-2 hover:scale-105 rounded-xl duration-500 flex flex-col justify-center items-center"> <img src={mongodb} className='w-1/2 h-50'></img> <span className="flex justify-center items-center font-bold"> MongoDB </span> </div>
+    <div className="w-40 h-40 border-b-4 border-orange-600 p-2 hover:scale-105 rounded-xl duration-500 flex flex-col justify-center items-center"> <img src={git} className='w-1/2 h-50'></img> <span className="flex justify-center items-center font-bold"> Git </span> </div>
+    <div className="w-40 h-40 border-b-4 border-cyan-400 p-2 hover:scale-105 rounded-xl duration-500 flex flex-col justify-center items-center"> <img src={tailwindcss} className='w-1/2 h-50'></img> <span className="flex justify-center items-center font-bold">Tailwind CSS </span> </div>
     <div className="w-40 h-40 border-b-4 border-blue-200 p-2 hover:scale-105 rounded-xl duration-500 flex flex-col justify-center items-center"> <img src={php} className='w-1/2 h-50'></img> <span className="flex justify-center items-center font-bold"> PHP </span> </div>
     <div className="w-40 h-40 border-b-4 border-sky-200 p-2 hover:scale-105 rounded-xl duration-500 flex flex-col justify-center items-center"> <img src={mysql} className='w-1/2 h-50'></img> <span className="flex justify-center items-center font-bold"> MySQL </span> </div>
-    <div className="w-40 h-40 border-b-4 border-cyan-600 p-2 hover:scale-105 rounded-xl duration-500 flex flex-col justify-center items-center"> <img src={python} className='w-1/2 h-50'></img> <span className="flex justify-center items-center font-bold"> Python </span> </div>
+    {/* <div className="w-40 h-40 border-b-4 border-cyan-600 p-2 hover:scale-105 rounded-xl duration-500 flex flex-col justify-center items-center"> <img src={python} className='w-1/2 h-50'></img> <span className="flex justify-center items-center font-bold"> Python </span> </div> */}
 </div>
        </div>
   )
