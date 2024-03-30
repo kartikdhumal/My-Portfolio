@@ -3,7 +3,7 @@ import './styles/Main.css'
 import { AiFillLinkedin, AiOutlineInstagram, AiOutlineBars, AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { NavLink } from 'react-router-dom';
 import { FaWindowClose } from "react-icons/fa";
-import resume from '../src/resume/kartikdhumal2024.pdf'
+import resume from '../src/resume/kartik2024.pdf'
 
 
 function Main() {
