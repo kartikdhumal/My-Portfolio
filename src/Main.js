@@ -40,7 +40,7 @@ function Main() {
         <p className='stylishtext text-md mt-3 font-semibold' id='fullstack'>
           A Passionate Learner
         </p>
-        <div className='mt-5'>
+        <div className='mt-5 stylishtext'>
           <a href={resume} download="kartikdhumal2024.pdf" className="inline-block font-bold rounded-full px-4 py-2 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95"> Resume </a>
         </div>
 
