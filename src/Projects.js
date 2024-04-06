@@ -2,7 +2,7 @@ import React from 'react'
 import { BsArrowUpRight } from "react-icons/bs"
 import tanvistore from './images/tanvistore.png'
 import portfolio from './images/portfolio.png'
-import dktales from './images/dktales.png'
+import dktales from './images/newdktales2.png'
 import aircraft from './images/aircrfat.png'
 import amazonprime from './images/amazonprime2.png'
 import AOS from 'aos';
@@ -37,7 +37,7 @@ function Projects() {
             <div className='thirdbox lg:w-[100%] sm:w-full flex xl:flex-row-reverse sm:flex-col border-[0.5px] border-sky-500 hover:scale-105 rounded-xl duration-1000 '>
                <div className='uppercase rounded-xl xl:w-64 bg-gradient-to-r from-[#0f171e] to to-[#0F172A] sm:w-full flex justify-center items-center'> <img src={amazonprime} className='xl:w-100 p-5 sm:w-100 sm:h-auto'></img> </div>
                <div dir='ltr' className='flex flex-col justify-start pt-4 xl:w-8/12 sm:w-full'>
-                  <a href="https://netflix-clone-kartikdhumal.vercel.app" target='_blank' className='px-4 flex justify-between flex-row text-2xl'>  Amazon Prime Video Streaming Website  <BsArrowUpRight size={18} /> </a>
+                  <a href="https://amazonprime-kartikdhumal.vercel.app/" target='_blank' className='px-4 flex justify-between flex-row text-2xl'>  Amazon Prime Video Streaming Website  <BsArrowUpRight size={18} /> </a>
                   <p className='py-4 px-4 h-auto'>
                      Amazon prime video streaming website with an admin panel. Admin can add shows without relying on third party apis
                   </p>
@@ -52,7 +52,7 @@ function Projects() {
             </div>
 
             <div className='thirdbox lg:w-[100%] sm:w-full flex xl:flex-row-reverse sm:flex-col border-[0.5px] border-sky-500 hover:scale-105 rounded-xl duration-1000 '>
-               <div className='uppercase rounded-xl xl:w-64 bg-gradient-to-r from-[#1D4FD9] to to-[#0F172A] sm:w-full flex justify-center items-center'>
+               <div className='uppercase rounded-xl xl:w-64 bg-gradient-to-r from-[#001f50] to to-[#0F172A] sm:w-full flex justify-center items-center'>
                   <img src={dktales} className='xl:w-100 p-5 sm:w-100 sm:h-auto'></img> </div>
                <div dir='ltr' className='flex flex-col justify-start pt-4 xl:w-8/12 sm:w-full'>
                   <a href="https://dktales-kartikdhumal.vercel.app/" target='_blank' className='px-4 flex justify-between flex-row text-2xl'> Blog Website  <BsArrowUpRight size={18} /> </a>
@@ -70,7 +70,7 @@ function Projects() {
             </div>
 
             <div className='thirdbox sm:w-full flex xl:flex-row-reverse sm:flex-col border-[0.5px] border-sky-500 hover:scale-105 rounded-xl duration-1000 '>
-               <div className='uppercase rounded-xl xl:w-64 bg-gradient-to-r from-[#D3DEF0] to to-[#0F172A] sm:w-full flex justify-center items-center'> <img src={portfolio} className='xl:w-100 p-5 sm:w-100 sm:h-auto'></img> </div>
+               <div className='uppercase rounded-xl xl:w-64 bg-gradient-to-r from-[#0F172A] to to-[#0F172A] sm:w-full flex justify-center items-center'> <img src={portfolio} className='xl:w-100 p-5 sm:w-100 sm:h-auto'></img> </div>
                <div dir='ltr' className='flex flex-col justify-start pt-4 xl:w-8/12 sm:w-full'>
                   <a href="#" target='_blank' className='px-4 flex justify-between flex-row text-2xl'>  Portfolio Website  <BsArrowUpRight size={18} /> </a>
                   <p className='py-4 px-4 h-auto'>
