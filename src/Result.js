@@ -6,6 +6,7 @@ import About from './About'
 import Projects from './Projects'
 import Education from './Education'
 import Skills from './Skills'
+import Certifications from './Certifications'
 
 
 function Result() {
@@ -18,6 +19,7 @@ function Result() {
         <Route path="/education" element={ <Education />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/certifications" element={<Certifications/>} />
         <Route path="*" element={<Pagenotfound />} />
       </Routes>
     </div>

@@ -62,6 +62,9 @@ function Main() {
           <li className='my-2   text-[#63718C]'> <NavLink style={({ isActive }) => {
             return isActive ? { color: "#D3DEF0", fontSize: "20px", transition: "0.175s ease-in-out " } : {}
           }} to="/projects"> Projects </NavLink></li>
+            <li className='my-2   text-[#63718C]'> <NavLink style={({ isActive }) => {
+            return isActive ? { color: "#D3DEF0", fontSize: "20px", transition: "0.175s ease-in-out " } : {}
+          }} to="/certifications"> Certifications </NavLink> </li>
           <li className='my-2   text-[#63718C]'> <NavLink style={({ isActive }) => {
             return isActive ? { color: "#D3DEF0", fontSize: "20px", transition: "0.175s ease-in-out " } : {}
           }} to="/contact"> Contact </NavLink> </li>

@@ -1,5 +1,5 @@
 import React from 'react'
-import stylish from './images/stylish.png'
+import stylish from './images/myphoto1.png'
 import './styles/About.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
