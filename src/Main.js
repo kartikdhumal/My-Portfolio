@@ -35,7 +35,7 @@ function Main() {
   return (
     <div className='main xl:fixed xl:h-screen sm:h-50 z-40 xl:w-2/5 xl:p-10 sm:pt-14 xl:p-auto xl:ml-20 sm:z-40 flex xl:flex-col sm:flex-col-reverse xl:justify-evenly items-center sm:w-full ml-0 relative flex-col'>
       <div className='xl:py-8 xl:px-4 xl:w-96 sm:w-100 sm:py-8 sm:px-4'>
-        <h1 className='stylishtext text-5xl w-full font-bold my-1'> Kartik Dhumal </h1>
+        <h1 className='stylishtext text-4xl uppercase w-full font-bold my-1'> Kartik Dhumal </h1>
         <p className='stylishtext fullstack text-2xl font-bold mt-3'> Full Stack Developer </p>
         <p className='stylishtext text-md mt-3 font-semibold' id='fullstack'>
           A Passionate Learner
@@ -62,7 +62,7 @@ function Main() {
           <li className='my-2   text-[#63718C]'> <NavLink style={({ isActive }) => {
             return isActive ? { color: "#D3DEF0", fontSize: "20px", transition: "0.175s ease-in-out " } : {}
           }} to="/projects"> Projects </NavLink></li>
-            <li className='my-2   text-[#63718C]'> <NavLink style={({ isActive }) => {
+          <li className='my-2   text-[#63718C]'> <NavLink style={({ isActive }) => {
             return isActive ? { color: "#D3DEF0", fontSize: "20px", transition: "0.175s ease-in-out " } : {}
           }} to="/certifications"> Certifications </NavLink> </li>
           <li className='my-2   text-[#63718C]'> <NavLink style={({ isActive }) => {
