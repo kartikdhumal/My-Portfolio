@@ -51,28 +51,28 @@ function Main() {
       {/* End of the main */}
       <div className='list sm:w-auto xl:bg-inherit xl:left-auto sm:left-0 xl:relative  sm:fixed xl:top-auto xl:pt-0 sm:pt-14 sm:top-0 navbar stylishtext xl:bg-[#0F172A] xl:flex sm:hidden xl:w-96 uppercase sm:z-30'>
         {/* <button onClick={navClose} className='xl:hidden px-4 pt-4 sm:block'> <FaWindowClose size={25} color='red'/> </button> */}
-        <ul className='text-md ulbox flex justify-between flex-col  p-4 font-bold'>
-          <li className='my-2   text-[#63718C]'> <NavLink style={({ isActive }) => { return isActive ? { color: "#D3DEF0", fontSize: "15px", transition: "0.175s ease-in-out " } : {} }} to="/"> About  </NavLink></li>
+        <ul className='text-lg ulbox flex justify-between flex-col  p-4 font-bold'>
+          <li className='my-2   text-[#63718C]'> <NavLink style={({ isActive }) => { return isActive ? { color: "#D3DEF0", fontSize: "17px", transition: "0.175s ease-in-out " } : {} }} to="/"> About  </NavLink></li>
           <li className='my-2   text-[#63718C]'> <NavLink style={({ isActive }) => {
-            return isActive ? { color: "#D3DEF0", fontSize: "15px", transition: "0.175s ease-in-out " } : {}
+            return isActive ? { color: "#D3DEF0", fontSize: "17px", transition: "0.175s ease-in-out " } : {}
           }} to="/skills">  Skills  </NavLink></li>
           <li className='my-2   text-[#63718C]'> <NavLink style={({ isActive }) => {
-            return isActive ? { color: "#D3DEF0", fontSize: "15px", transition: "0.175s ease-in-out " } : {}
+            return isActive ? { color: "#D3DEF0", fontSize: "17px", transition: "0.175s ease-in-out " } : {}
           }} to="/education">  Education </NavLink> </li>
-           <li className='my-2   text-[#63718C]'> <NavLink style={({ isActive }) => {
-            return isActive ? { color: "#D3DEF0", fontSize: "15px", transition: "0.175s ease-in-out " } : {}
-          }} to="/experience">  Experience </NavLink> </li>
+           {/* <li className='my-2   text-[#63718C]'> <NavLink style={({ isActive }) => {
+            return isActive ? { color: "#D3DEF0", fontSize: "17px", transition: "0.175s ease-in-out " } : {}
+          }} to="/experience">  Experience </NavLink> </li> */}
           <li className='my-2   text-[#63718C]'> <NavLink style={({ isActive }) => {
-            return isActive ? { color: "#D3DEF0", fontSize: "15px", transition: "0.175s ease-in-out " } : {}
+            return isActive ? { color: "#D3DEF0", fontSize: "17px", transition: "0.175s ease-in-out " } : {}
           }} to="/projects"> Projects </NavLink></li>
           <li className='my-2   text-[#63718C]'> <NavLink style={({ isActive }) => {
-            return isActive ? { color: "#D3DEF0", fontSize: "15px", transition: "0.175s ease-in-out " } : {}
+            return isActive ? { color: "#D3DEF0", fontSize: "17px", transition: "0.175s ease-in-out " } : {}
           }} to="/certifications"> Certifications </NavLink> </li>
           <li className='my-2   text-[#63718C]'> <NavLink style={({ isActive }) => {
-            return isActive ? { color: "#D3DEF0", fontSize: "15px", transition: "0.175s ease-in-out " } : {}
+            return isActive ? { color: "#D3DEF0", fontSize: "17px", transition: "0.175s ease-in-out " } : {}
           }} to="/achivements"> Achievements </NavLink> </li>
           <li className='my-2   text-[#63718C]'> <NavLink style={({ isActive }) => {
-            return isActive ? { color: "#D3DEF0", fontSize: "15px", transition: "0.175s ease-in-out " } : {}
+            return isActive ? { color: "#D3DEF0", fontSize: "17px", transition: "0.175s ease-in-out " } : {}
           }} to="/contact"> Contact </NavLink> </li>
         </ul>
       </div>

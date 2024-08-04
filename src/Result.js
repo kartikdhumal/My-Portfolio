@@ -21,7 +21,7 @@ function Result() {
           <Route path="/education" element={<Education />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/experience" element={<Experiences />} />
+          {/* <Route path="/experience" element={<Experiences />} /> */}
           <Route path="/certifications" element={<Certifications />} />
           <Route path="/achivements" element={<Achievement />} />
           <Route path="*" element={<Pagenotfound />} />

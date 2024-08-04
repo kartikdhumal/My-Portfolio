@@ -20,15 +20,17 @@ function Projects() {
                   <img src={aircraft} alt={aircraft} className='xl:w-100 p-5 sm:w-100 sm:h-auto'></img> </div>
                <div dir='ltr' className='flex flex-col justify-start pt-4 xl:w-8/12 sm:w-full'>
                   <a href="https://aerocraftnexus-kartikdhumal.vercel.app/" target='_blank' rel="noreferrer" className='px-4 flex justify-between flex-row text-2xl'> Aircraft Models E-commerce website  <BsArrowUpRight size={18} /> </a>
-                  <p className='py-4 px-4 h-auto'>
-                     Explore my E-commerce website built with MERN stack. It has various features.
+
+                  <p className='py-4 px-4 h-auto  flex'>
+                     Explore my e-commerce website for selling aeroplanes models, built with the MERN stack and styled using tailwind CSS.
                   </p>
-                  <div className='flex xl:flex-wrap sm:flex-wrap p-2 justify-start items-center pt-0 pb-4' id='expskills'>
-                     <div className='font-semibold rounded-full my-2 mr-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text'> React.js </div>
-                     <div className='font-semibold rounded-full my-2 mr-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text'> Node.js </div>
-                     <div className='font-semibold rounded-full my-2 mr-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text'> Express.js </div>
+
+                  <div className='flex text-sm xl:flex-wrap sm:flex-wrap p-2 justify-start items-center pt-0 pb-4' id='expskills'>
+                     <div className='font-semibold rounded-full my-2 mr-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text'> React</div>
+                     <div className='font-semibold rounded-full my-2 mr-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text'> Node.js</div>
+                     <div className='font-semibold rounded-full my-2 mr-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text'> Express</div>
                      <div className='font-semibold rounded-full my-2 mr-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text'> MongoDB </div>
-                     <div className='font-semibold rounded-full my-2 mr-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text'> Tailwind CSS </div>
+                     <div className='font-semibold rounded-full my-2 mr-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text'> Tailwind</div>
                   </div>
                </div>
             </div>
@@ -36,11 +38,11 @@ function Projects() {
             <div className='thirdbox lg:w-[100%] sm:w-full flex xl:flex-row-reverse sm:flex-col border-[0.5px] border-sky-500 hover:scale-105 rounded-xl duration-1000 '>
                <div className='uppercase rounded-xl xl:w-64 bg-gradient-to-r from-[#0f171e] to to-[#0F172A] sm:w-full flex justify-center items-center'> <img src={amazonprime} alt={amazonprime} className='xl:w-100 p-5 sm:w-100 sm:h-auto'></img> </div>
                <div dir='ltr' className='flex flex-col justify-start pt-4 xl:w-8/12 sm:w-full'>
-                  <a href="https://amazonprime-kartikdhumal.vercel.app/" target='_blank' rel="noreferrer" className='px-4 flex justify-between flex-row text-2xl'>  Amazon Prime Video Streaming Website  <BsArrowUpRight size={18} /> </a>
-                  <p className='py-4 px-4 h-auto'>
+                  <a href="https://amazonprime-kartikdhumal.vercel.app/" target='_blank' rel="noreferrer" className='px-4 flex justify-between flex-row text-2xl'>  Amazon Prime Video Streaming <BsArrowUpRight size={18} /> </a>
+                  <p className='py-4 px-4 h-auto  flex'>
                      Amazon prime video streaming website with an admin panel. Admin can add shows without relying on third party apis
                   </p>
-                  <div className='flex xl:flex-wrap sm:flex-wrap p-2 justify-start items-center pt-0 pb-4 ' id='expskills'>
+                  <div className='flex text-sm xl:flex-wrap sm:flex-wrap p-2 justify-start items-center pt-0 pb-4 ' id='expskills'>
                      <div className='font-semibold rounded-full my-2 mr-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> React.js </div>
                      <div className='font-semibold rounded-full my-2 mr-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> Node.js </div>
                      <div className='font-semibold rounded-full my-2 mr-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> Express.js </div>
@@ -55,10 +57,10 @@ function Projects() {
                   <img src={dktales} alt={dktales} className='xl:w-100 p-5 sm:w-100 sm:h-auto'></img> </div>
                <div dir='ltr' className='flex flex-col justify-start pt-4 xl:w-8/12 sm:w-full'>
                   <a href="https://dktales-kartikdhumal.vercel.app/" target='_blank' rel="noreferrer" className='px-4 flex justify-between flex-row text-2xl'> Blog Website  <BsArrowUpRight size={18} /> </a>
-                  <p className='py-4 px-4 h-auto'>
+                  <p className='py-4 px-4 h-auto  flex'>
                      Explore my blog website! It's built with Next.js, TypeScript, MongoDB, and Prisma. You can add comments and create blogs.
                   </p>
-                  <div className='flex xl:flex-wrap sm:flex-wrap p-2 justify-start items-center pt-0 pb-4 ' id='expskills'>
+                  <div className='flex text-sm xl:flex-wrap sm:flex-wrap p-2 justify-start items-center pt-0 pb-4 ' id='expskills'>
                      <div className='font-semibold rounded-full my-2 mr-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> Next.js </div>
                      <div className='font-semibold rounded-full my-2 mr-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> TypeScript </div>
                      <div className='font-semibold rounded-full my-2 mr-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> MongoDB </div>
@@ -73,10 +75,10 @@ function Projects() {
                   <img src={portfolio} alt={portfolio} className='xl:w-100 p-5 sm:w-100 sm:h-auto'></img> </div>
                <div dir='ltr' className='flex flex-col justify-start pt-4 xl:w-8/12 sm:w-full'>
                   <a href="https://kartikdhumal.vercel.app/" target='_blank' rel="noreferrer" className='px-4 flex justify-between flex-row text-2xl'>  Portfolio Website  <BsArrowUpRight size={18} /> </a>
-                  <p className='py-4 px-4 h-auto'>
-                     It is a personal portfolio website with skills , experince , projects , contact section
+                  <p className='py-4 px-4 h-auto  flex'>
+                     This personal portfolio website showcases my skills, experience, projects, achievements, and provides contact information
                   </p>
-                  <div className='flex xl:flex-wrap sm:flex-wrap p-2 justify-start items-center pt-0 pb-4 ' id='expskills'>
+                  <div className='flex text-sm xl:flex-wrap sm:flex-wrap p-2 justify-start items-center pt-0 pb-4 ' id='expskills'>
                      <div className='font-semibold rounded-full my-2 mr-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> React.js </div>
                      <div className='font-semibold rounded-full my-2 mr-2 px-4 py-1 transition duration-300 ease-in-out transform bg-gray-800 text-white hover:scale-95'> Tailwind CSS </div>
                   </div>
