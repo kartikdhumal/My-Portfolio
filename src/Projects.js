@@ -21,7 +21,7 @@ function Projects() {
                <div dir='ltr' className='flex flex-col justify-start pt-4 xl:w-8/12 sm:w-full'>
                   <a href="https://aerocraftnexus-kartikdhumal.vercel.app/" target='_blank' rel="noreferrer" className='px-4 flex justify-between flex-row text-2xl'> Aircraft Models E-commerce website  <BsArrowUpRight size={18} /> </a>
 
-                  <p className='py-4 px-4 h-auto  flex'>
+                  <p className='py-4 px-4 h-auto flex'>
                      Explore my e-commerce website for selling aeroplanes models, built with the MERN stack and styled using tailwind CSS.
                   </p>
 
