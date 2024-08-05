@@ -27,7 +27,7 @@ function Achievement() {
                     <div className='uppercase rounded-xl xl:w-64 lg:bg-gradient-to-r from-[#EBA340] to to-[#0F172A] sm:bg-gradient-to-b sm:w-full flex justify-center items-center'>
                         <img src={leetcode} alt={leetcode} className='xl:w-100 p-5 sm:w-[70%] sm:h-auto'></img> </div>
                     <div dir='ltr' className='flex flex-col justify-center items-center pt-4 xl:w-8/12 sm:w-full'>
-                        <a href="https://www.hackerrank.com/kartikdhumal24" target='_blank' rel="noreferrer" className='px-4 flex justify-between flex-row text-2xl'> Solved More than 100+ problems in Leetcode  <BsArrowUpRight size={18} /> </a>
+                        <a href="https://leetcode.com/u/kartikdhumal24/" target='_blank' rel="noreferrer" className='px-4 flex justify-between flex-row text-2xl'> Solved More than 100+ problems in Leetcode  <BsArrowUpRight size={18} /> </a>
                         <p className='py-4 px-4 h-auto w-full '>
                             Solved problems related to diffrent topics in Javascript and SQL
                         </p>
